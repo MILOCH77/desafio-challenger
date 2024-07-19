@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Playwrite+PE:wght@100..400&display=swap&family=Farsan&family=Merienda:wght@300..900&family=Playwrite+PE:wght@100..400&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
+body {
+    background-image: url("./img/matrix.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--cor-secundaria);
+}
+
+main {
+    margin: 2% 0;
+}
+
+.cabecalho {
+    font-family: "Merienda", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+
+.input {
+    align-items: center;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-input .input{
+    width: 500px;
+    height: 400px;
+}
+#input-texto{
+    width: 500px;
+    height: 470px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    outline: 0;
+    backdrop-filter: blur(10px);
+}
+
+.transp {
+    opacity : 0.5;
+}
+
+.atencao {
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    font-size: 1.25rem;
+
+}
+
+.container-bnt button{
+    margin-left: 2%;
+    position: relative;
+    left: 12%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--cortitulo);
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.12rem;
+    color: var(--cortitulo);
+    width: 200px;
+    height: 50px;
+}
+
+.btn-copiar{
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--cortitulo);
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.12rem;
+    color: var(--cortitulo);
+    width: 200px;
+    height: 50px;
+}
+
+.container-bnt button:hover{
+   border: 2px solid var(--corhover);
+   color: var(--corhover);
+   transition: 0.5s all;
+}
+
+.rodape {
+    width: auto;
+    padding: 1px;
+    border: none;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-size: 1.38rem;
+}

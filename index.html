@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Desafio Challenger</h1>
+        <h2>Decodificador de Textos</h2>
+    </header>
+    <main class="input">
+        <div class="container-input">
+            <div class="input">
+               <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+               <p class="atencao">ATENÇÃO: Apenas letras minúsculas e sem acentos!</p>
+           </div>
+   
+   
+            <div id="output">
+               <h4>Sua mensagem aparecerá aqui!</h4>
+               <img class="transp" src="./img/High quality products 1 1@2x.png" alt="logo descriptografando" height="430px" width="400px">
+               <h5>Digite um texto que deseja criptografar ou descriptografar.</h5>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="container-bnt">
+               <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+               <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        
+        <strong>
+        <p><img class="transp" src="./img/Prancheta 3.png" alt="logo insignia" height="40px" width="40px">Desenvolvido por FRANKLIN MILOCH, como atividade final do módulo: </p><p>Praticando lógica de programação: Challenge Decodificador de Texto. Turma 7.</p></strong>
+        <script src="app.js"></script>
+    </footer>
+</body>
+</html>
